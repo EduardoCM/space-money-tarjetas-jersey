@@ -16,7 +16,7 @@ public class Tarjeta implements Serializable {
 	private String nombreEntidad;
 	private String numeroTarjeta;
 	private String cvv;
-	private String fechaCaudicidad;
+	private String fechaCaducidad;
 	private String marca;
 	
 	
@@ -50,11 +50,14 @@ public class Tarjeta implements Serializable {
 	public void setCvv(String cvv) {
 		this.cvv = cvv;
 	}
-	public String getFechaCaudicidad() {
-		return fechaCaudicidad;
+	
+	
+	
+	public String getFechaCaducidad() {
+		return fechaCaducidad;
 	}
-	public void setFechaCaudicidad(String fechaCaudicidad) {
-		this.fechaCaudicidad = fechaCaudicidad;
+	public void setFechaCaducidad(String fechaCaducidad) {
+		this.fechaCaducidad = fechaCaducidad;
 	}
 	public String getMarca() {
 		return marca;

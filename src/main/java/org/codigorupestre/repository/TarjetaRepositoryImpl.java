@@ -19,7 +19,7 @@ public class TarjetaRepositoryImpl implements TarjetaRepository {
 		tarjeta.setNombreEntidad("Banco Maya");
 		tarjeta.setNumeroTarjeta("5645-2345-2367-3242");
 		tarjeta.setMarca("MAYA-VISA");
-		tarjeta.setFechaCaudicidad("20/26");
+		tarjeta.setFechaCaducidad("20/26");
 		tarjeta.setCvv("234");
 		tarjetasDigitales.add(tarjeta);
 	}
